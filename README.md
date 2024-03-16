@@ -7,7 +7,7 @@ Java Math Toolbox is a Java-based program with various functionalities, includin
 - [About](#about)
 - [Features](#features)
 - [Imports](#Imports)
-- [Rating: 7/10](#Rating)
+- [Rating: 5/10](#Rating)
 
 # About
 
@@ -22,3 +22,9 @@ The Java Math Toolbox is a powerful tool for Java programming, offering a range 
 Scanner, Random
 
 # Rating
+
+The project's code organization and readability are rated normal, with multiple sections for different tasks placed within the'main' method. Variable names are not descriptive, and inconsistent indentation and spacing make the code less readable. There are also no comments explaining the purpose of each section or individual lines of code.
+The program covers various mathematical calculations, such as solving quadratic equations, counting dollars and pennies, calculating the ISBN checksum, simulating coin flips, and determining the day of the week for a given date. However, there are issues with functionality, such as incorrect usage of the 'nextInt' method of the 'Random' class, incomplete ISBN calculation, and lack of error handling for invalid inputs or edge cases.
+Error handling is normal, with the program lacking proper error handling for invalid inputs or unexpected scenarios. It doesn't handle cases where the user input is not a valid number or enters values that could lead to division by zero or other errors.
+Efficiency is good, with some areas needing improvement. Repeated calculations could be avoided by storing results in variables instead of recalculating them, and the coin flip simulation logic is incorrect and inefficient. There's potential for code reuse and optimization by extracting repetitive code into separate methods.
+Overall, the project shows potential but requires significant improvements in code organization, readability, error handling, and functionality to enhance its quality and usability.
